@@ -119,18 +119,6 @@
   ],
   "saveforlater": [
     {
-      "id": "4",
-      "title": "OPPOF19",
-      "description": "OPPO F19 is officially announced on April 2021.",
-      "price": 280,
-      "discountPercentage": 17.91,
-      "rating": 4.3,
-      "stock": 123,
-      "brand": "OPPO",
-      "category": "smartphones",
-      "thumbnail": "public/Images/oppo-f19-pro-fantasy-purple-8gb-ram-128gb-storage-preowned-triveni-world-1_800x.webp"
-    },
-    {
       "id": "2",
       "title": "iPhone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
@@ -163,6 +151,16 @@
       "brand": "OPPO",
       "category": "smartphones",
       "thumbnail": "public/Images/oppo-f19-pro-fantasy-purple-8gb-ram-128gb-storage-preowned-triveni-world-1_800x.webp"
+    },
+    {
+      "id": "1",
+      "title": "iPhone 9",
+      "description": "An apple mobile which is nothing like apple",
+      "price": 549,
+      "rating": 4.69,
+      "stock": 94,
+      "category": "smartphones",
+      "thumbnail": "public/images/apple-iphone-x-new-1.jpg"
     }
   ]
 }
