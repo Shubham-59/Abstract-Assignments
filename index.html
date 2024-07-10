@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Column Layout</title>
+    <link rel="stylesheet" href="public/CSS/style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <div class="nav-logo">
+                <img src="./public/Images/Free-Logo-Design-Template-for-Online-Store-Download-scaled.jpg" alt="Logo" class="logo">
+            </div>
+            <div class="nav-deliver-to">
+                <span class="deliver-text">Deliver to</span>
+                <div class="deliver-country">
+                    <span class="country-name">India</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <div class="nav-search">
+                <div class="search-category">
+                    <select class="search-select">
+                        <option>All</option>
+                        <option>Electronics</option>
+                        <option>Books</option>
+                        <!-- Add more options as needed -->
+                    </select>
+                </div>
+                <div class="search-input-wrapper">
+                    <input type="text" placeholder="Search" class="search-input">
+                    <button type="submit" class="search-button">
+                        <i class="fa-solid fa-search"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="nav-links">
+                <div class="nav-link">
+                    <span class="link-text">Hello, Sign in</span>
+                    <span class="link-subtext">Account & Lists</span>
+                </div>
+                <div class="nav-link">
+                    <span class="link-text">Returns</span>
+                    <span class="link-subtext">& Orders</span>
+                </div>
+                <div class="nav-link">
+                    <span class="link-icon">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </span>
+                    <span class="link-text">Cart</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <h3 style="text-align: center; color: #424242; font-weight: 650; background: linear-gradient(90deg, #424242, #ffffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">Products</h3>
+
+                <ul id="products" class="list-group"></ul>
+            </div>
+            <div class="col-6">
+                <h3 style="text-align: center; color: #424242; font-weight: 650; background: linear-gradient(90deg, #424242, #ffffff); -webkit-background-clip: text; -webkit-text-fill-color: transparent; text-shadow: 2px 2px 4px rgba(0,0,0,0.2);">Save For Later</h3>
+                <ul id="saveforlaterList" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies (Optional for additional features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="public/js/script.js"></script>
+</body>
+</html>
